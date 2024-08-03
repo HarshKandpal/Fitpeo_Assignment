@@ -53,7 +53,7 @@ function Activity() {
       {
         label: "Value",
         data: values,
-        backgroundColor: "lightblue",
+        backgroundColor: "#7297FE",
         borderRadius: Number.MAX_VALUE,
         borderSkipped: false,
         barThickness: 25,

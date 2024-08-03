@@ -8,7 +8,7 @@ import RecentOrder from '../HomeComponents/RecentOrder';
 
 function Home() {
   return (
-    <div className='flex flex-col text-white px-2 pt-8 gap-y-6'>
+    <div className='flex flex-col text-white px-2  gap-y-6'>
       <div className='font-bold text-2xl'>
         Dashboard
       </div>

@@ -1,15 +1,21 @@
 import React from 'react';
 import {StatsData} from '../Data/StatsData'
 import { FaPlay} from 'react-icons/fa';
+import { FaShoppingBag, FaDollarSign,FaBitbucket } from 'react-icons/fa';
 function BoxStats() {
   return (
     <div className="w-full md:w-3/4 flex justify-around space-x-3">
       {
-        StatsData && StatsData.map((stat)=>(
+        StatsData && StatsData.map((stat,i)=>(
           <div key={stat.title} className='bg-secondary w-1/4 rounded-md flex flex-col justify-between '>
             <div className='flex flex-col'>
-              <div className='m-2'>
-                     Make it
+              <div className='m-2 h-10 w-10 flex bg-slate-800 items-center justify-center rounded-lg'>
+                     {/* //Static images */}
+                    { i==0? <FaBitbucket className='text-blue-500 text-xl'/>:
+                     i==1?<FaShoppingBag className='text-green-500 text-xl'/>: 
+                     i==2?<FaShoppingBag className='text-red-500 text-xl'/>:
+                     <FaDollarSign className='text-pink-500 text-xl'/>
+                    }
               </div>
               <div className='mx-2 text-xs font-semibold'>
                 {stat.title}
