@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+  .feedback-scroll::-webkit-scrollbar {
+    width: 4px;
+    height: 2px;
+  }
+  
+  
+  .feedback-scroll::-webkit-scrollbar-thumb {
+    background: gray;
+    border-radius: 5px;
+  }
+  
