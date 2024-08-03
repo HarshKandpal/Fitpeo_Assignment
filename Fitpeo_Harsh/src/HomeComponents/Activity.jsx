@@ -40,10 +40,10 @@ function Activity() {
   };
 
   const randomizeValues = () => {
-    const newValues = Array.from({ length: 8 }, () => getRandomInt(0, 20000));
+    const newValues = Array.from({ length: 20 }, () => getRandomInt(5000, 20000));
     setValues(newValues);
 
-    const newLabels = [0, 5, 9, 13, 17, 21, 25, 27];
+    const newLabels = [0, 5, 9, 13, 17, 21, 25, 27,29,33,35,37,41,43,47,49,53,55,57,61];
     setLabels(newLabels);
   };
 
