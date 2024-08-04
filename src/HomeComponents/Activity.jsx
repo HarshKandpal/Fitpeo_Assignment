@@ -56,7 +56,6 @@ function Activity() {
         backgroundColor: "#7297FE",
         borderRadius: Number.MAX_VALUE,
         borderSkipped: false,
-        barThickness: 25,
       },
     ],
   };
