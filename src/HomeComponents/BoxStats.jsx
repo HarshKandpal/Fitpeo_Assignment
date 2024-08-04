@@ -4,10 +4,10 @@ import { FaPlay} from 'react-icons/fa';
 import { FaShoppingBag, FaDollarSign,FaBitbucket } from 'react-icons/fa';
 function BoxStats() {
   return (
-    <div className="w-full md:w-3/4 flex justify-around space-x-3">
+    <div className="w-full md:w-3/4 flex flex-wrap md:flex-nowrap md:justify-around  gap-3">
       {
         StatsData && StatsData.map((stat,i)=>(
-          <div key={stat.title} className='bg-secondary w-1/4 rounded-md flex flex-col justify-between '>
+          <div key={stat.title} className='bg-secondary w-1/4 rounded-md flex flex-col justify-between flex-grow '>
             <div className='flex flex-col'>
               <div className='m-2 h-10 w-10 flex bg-slate-800 items-center justify-center rounded-lg'>
                      {/* //Static images */}

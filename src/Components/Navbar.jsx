@@ -14,7 +14,7 @@ function Navbar() {
         <input
           type="text"
           placeholder="Search..."
-          className="bg-slate-700 focus:bg-slate-800 rounded-lg pl-8 pr-2 h-8 font-medium text-xs border border-gray-500 focus:outline-none focus:border-gray-600 w-48 md:w-64 max-w-xs md:max-w-sm"
+          className="bg-slate-700 focus:bg-slate-800 rounded-lg pl-8 pr-2 h-8 font-medium text-xs border border-gray-500 focus:outline-none focus:border-gray-600 w-1/2 md:w-64 max-w-xs md:max-w-sm"
         />
       </div>
 
